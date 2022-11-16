@@ -1,8 +1,17 @@
 # /bin/bash
 
+CONFIG_FILE_NAME=packages.txt
+CONFIG_FILE_DOWNLOAD_LINK=https://github.com/ArduCAM/Arducam-Pivariety-V4L2-Driver/releases/download/install_script/packages.txt
 BIT=`getconf LONG_BIT`
 RED='\033[0;31m'
 NC='\033[0m' # No Color
+arr_subscript=0
+InstallName=
+SenorId=
+OpenCameraName=
+BOOTCONFIG="/boot/config.txt"
+BIT=`getconf LONG_BIT`
+# PWD_GET=`pwd`
 
 function rand(){
     min=$1
