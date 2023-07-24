@@ -8,7 +8,7 @@ Detect_HAT_Firmware_Date.py for all cameras with hat boards.
 ```shell
 python3 Detect_HAT_Firmware_Date.py -y <i2c-bus>
 ```
-[Example]
+[Example]  
 For pi4: 
 ```shell
 python3 Detect_HAT_Firmware_Date.py -y 10
